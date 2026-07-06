@@ -49,7 +49,7 @@ def updatefile():
         if p.exists() and p.is_file():
             print("press 1 for changing name of file")
             print("press 2 for overwriting data of file")
-            print("press 1 for appending some content in your file")
+            print("press 3 for appending some content in your file")
 
             res = int(input("tell your response :- "))
 
